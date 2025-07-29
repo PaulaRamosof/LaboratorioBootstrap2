@@ -1,0 +1,68 @@
+/* 🎀 Fondo general */
+body {
+  background-color: #df4163;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🧭 Navbar personalizada */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #ff69b4;
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+  color: #ff1493;
+}
+
+/* 🎉 Botón de agregar con efecto brillante */
+.btn-primary {
+  background-color: #6c5ce7;
+  border: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 10px #a29bfe;
+}
+
+/* 🗑️ Botón de eliminar con alerta emocional */
+.btn-danger {
+  background-color: #ff7675;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #d63031;
+}
+
+/* ✅ Lista de tareas con resaltado */
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid #ffeaa7;
+  transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #ffeaa7;
+}
+
+/* 📢 Alerta personalizada */
+.alert-success {
+  background-color: #55efc4;
+  color: #2d3436;
+  font-weight: bold;
+  border: none;
+}
+
+/* 👣 Footer emocional */
+footer {
+  background-color: #f0f0f0;
+  color: #636e72;
+  font-size: 0.9rem;
+}
